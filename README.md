@@ -62,7 +62,7 @@ Replace **MIT** and **pankajyadavdevops** with the appropriate license and your 
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git@github.com:pankajyadavdevops/terraform-azure-lables.git | 1.0.1 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git@github.com:pankajyadavdevops/terraform-azure-lables.git?ref=v1.0.1 | 1.0.1 |
 
 ## Resources
 

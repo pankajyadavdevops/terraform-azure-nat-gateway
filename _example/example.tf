@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 module "resource_group" {
-  source      = "git@github.com:pankajyadavdevops/terraform-azure-resource-group.git"
+  source      = "git@github.com:pankajyadavdevops/terraform-azure-resource-group.git?ref=v1.0.1"
   version     = "1.0.1"
   name        = "app"
   environment = "test"
@@ -11,7 +11,7 @@ module "resource_group" {
 }
 
 module "vnet" {
-  source              = "git@github.com:pankajyadavdevops/terraform-azure-vnet.git"
+  source              = "git@github.com:pankajyadavdevops/terraform-azure-vnet.git?ref=v1.0.1"
   version             = "1.0.1"
   name                = "app"
   environment         = "test"
@@ -21,7 +21,7 @@ module "vnet" {
 }
 
 module "subnet" {
-  source               = "git@github.com:pankajyadavdevops/terraform-azure-subnet.git"
+  source               = "git@github.com:pankajyadavdevops/terraform-azure-subnet.git?ref=v1.0.1"
   version              = "1.0.1"
   name                 = "app"
   environment          = "test"

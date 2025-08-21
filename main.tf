@@ -1,5 +1,5 @@
 module "labels" {
-  source      = "git@github.com:pankajyadavdevops/terraform-azure-lables.git"
+  source      = "git@github.com:pankajyadavdevops/terraform-azure-lables.git?ref=v1.0.1"
   version     = "1.0.1"
   name        = var.name
   environment = var.environment
